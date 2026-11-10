@@ -1,0 +1,9 @@
+import {mkdirSync,copyFileSync,readdirSync,readFileSync} from 'node:fs';
+mkdirSync('dist',{recursive:true});
+for(const file of readdirSync('website')) copyFileSync(`website/${file}`,`dist/${file}`);
+for(let i=0;i<4;i++) copyFileSync(`public/workshop-${i}.jpg`,`dist/workshop-${i}.jpg`);
+const html=readFileSync('dist/index.html','utf8');
+const ids=new Set([...html.matchAll(/\bid="([^"]+)"/g)].map(x=>x[1]));
+for(const [,id] of html.matchAll(/href="#([^"]+)"/g)) if(!ids.has(id)) throw Error(`Missing anchor ${id}`);
+for(const token of ['Starter Project','codex-preview','TODO','待補']) if(html.includes(token)) throw Error(`Unfinished content: ${token}`);
+console.log('Static site built. Local anchors and content checks passed.');
