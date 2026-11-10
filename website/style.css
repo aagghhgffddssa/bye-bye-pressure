@@ -6,3 +6,5 @@
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{transition:none!important}}
 
 .official-logo{display:block;position:relative;width:180px;aspect-ratio:2;overflow:hidden;background:white}.official-logo img{position:absolute;top:-90%;left:0;width:100%;height:auto;max-width:none}footer .official-logo{width:150px}@media(max-width:760px){.brand .official-logo{width:130px}footer .official-logo{width:120px}}
+
+.workshop-video{aspect-ratio:16/9;margin-top:35px;background:#203e32;border-radius:6px;overflow:hidden}.workshop-video iframe{display:block;width:100%;height:100%;border:0}.video-note{font-size:12px;text-align:right;margin-top:12px}
