@@ -28,4 +28,4 @@
 
 已以 Microsoft Edge headless 檢查 1440、390、320 px 寬度，檢查圖片載入、水平溢出、FAQ 展開、頁內導覽、LINE 提示及 mailto / tel 連結。截圖及結果保存在本機 `outputs/`，不隨網站部署。未實際寄信、撥號，或送出任何聯絡訊息。
 
-Google Fonts 載入失敗時使用系統 sans-serif / serif 字型。新網站依 Sites 預設維持擁有者私人存取；部署不代表已開放公開訪客。
+Google Fonts 載入失敗時使用系統 sans-serif / serif 字型。依使用者發布要求，Sites 網站已開放公開訪客；GitHub Pages 使用 `.github/workflows/pages.yml`，每次推送 `main` 自動重新發布，僅上傳 `dist/` 網站內容。

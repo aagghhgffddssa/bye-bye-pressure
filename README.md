@@ -1,4 +1,23 @@
-# vinext-starter
+# Bye Bye Pressure｜戲劇工作坊介紹網站
+
+青少年表演藝術聯盟的一頁式介紹網站，包含工作坊定位、企業／校園／家庭服務、案例、師資與聯絡入口。
+
+- 公開網站：https://aagghhgffddssa.github.io/bye-bye-pressure/
+- 原 Sites 網站：https://bye-bye-pressure-workshop-2026.aagghhgffddssa.chatgpt.site
+- 網站內容與操作說明：[WEBSITE-README.md](WEBSITE-README.md)
+
+實際網站原始碼位於 `website/`，照片位於 `public/workshop-*.jpg`。使用 Node.js 22 以上，無須安裝 npm 套件：
+
+```sh
+node scripts/build-static.mjs
+node scripts/preview-static.mjs
+```
+
+開啟 http://127.0.0.1:4173 預覽。推送到 `main` 後，GitHub Actions 自動建置並發布至 GitHub Pages；可於 Actions 頁面確認結果。
+
+以下為保留的 Vinext 起始範本說明，不適用於目前的靜態網站建置。
+
+## 原始範本參考
 
 A clean full-stack starter running on [vinext](https://github.com/cloudflare/vinext), with optional Cloudflare D1 and Drizzle support.
 
