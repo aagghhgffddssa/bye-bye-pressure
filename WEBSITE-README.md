@@ -31,3 +31,5 @@
 Google Fonts 載入失敗時使用系統 sans-serif / serif 字型。依使用者發布要求，Sites 網站已開放公開訪客；GitHub Pages 使用 `.github/workflows/pages.yml`，每次推送 `main` 自動重新發布，僅上傳 `dist/` 網站內容。
 
 新增介紹照片：IMG_8058.JPG，來源 https://drive.google.com/file/d/1XWU03xDzJlZbipCtf6EGhbmd8KtdEK3A/view ，網站檔名 public/workshop-discussion.jpg。以原始比例顯示，不裁切。服務對象、練習內容及安排參考依既有 2026 介紹簡報整理；案例時數作為參考，非固定方案承諾。
+
+2026-11-11 閱讀架構調整：首頁 → 需求快速入口 → 服務摘要及可展開細節 → 戲劇工作坊方法／八堂課路徑 → 結構化案例／營隊影片 → 專業團隊 → FAQ → 合作聯絡。每案保留原日期、對象、人數、時數與回饋；五張活動照片各用一次，新增案例連結。案例與團隊照片改以完整比例顯示，避免裁切人物；手機首圖也保留完整比例。
