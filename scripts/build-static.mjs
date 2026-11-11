@@ -2,6 +2,7 @@ import {mkdirSync,copyFileSync,readdirSync,readFileSync} from 'node:fs';
 mkdirSync('dist',{recursive:true});
 for(const file of readdirSync('website')) copyFileSync(`website/${file}`,`dist/${file}`);
 for(let i=0;i<4;i++) copyFileSync(`public/workshop-${i}.jpg`,`dist/workshop-${i}.jpg`);
+copyFileSync('public/workshop-discussion.jpg','dist/workshop-discussion.jpg');
 const html=readFileSync('dist/index.html','utf8');
 const ids=new Set([...html.matchAll(/\bid="([^"]+)"/g)].map(x=>x[1]));
 for(const [,id] of html.matchAll(/href="#([^"]+)"/g)) if(!ids.has(id)) throw Error(`Missing anchor ${id}`);

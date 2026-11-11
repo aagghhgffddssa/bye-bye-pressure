@@ -29,3 +29,5 @@
 已以 Microsoft Edge headless 檢查 1440、390、320 px 寬度，檢查圖片載入、水平溢出、FAQ 展開、頁內導覽、LINE 提示及 mailto / tel 連結。截圖及結果保存在本機 `outputs/`，不隨網站部署。未實際寄信、撥號，或送出任何聯絡訊息。
 
 Google Fonts 載入失敗時使用系統 sans-serif / serif 字型。依使用者發布要求，Sites 網站已開放公開訪客；GitHub Pages 使用 `.github/workflows/pages.yml`，每次推送 `main` 自動重新發布，僅上傳 `dist/` 網站內容。
+
+新增介紹照片：IMG_8058.JPG，來源 https://drive.google.com/file/d/1XWU03xDzJlZbipCtf6EGhbmd8KtdEK3A/view ，網站檔名 public/workshop-discussion.jpg。以原始比例顯示，不裁切。服務對象、練習內容及安排參考依既有 2026 介紹簡報整理；案例時數作為參考，非固定方案承諾。
